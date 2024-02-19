@@ -4,7 +4,7 @@ from openai import OpenAI
 import json
 import pandas as pd
 
-os.environ['OPENAI_API_KEY']="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"
+os.environ['OPENAI_API_KEY']=""
 client = OpenAI()
 
 #response = client.chat.completions.create(
